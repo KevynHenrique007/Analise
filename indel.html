@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed de Notícias de Jogos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .feed {
+            margin: 20px 0;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+        .post .user {
+            font-weight: bold;
+        }
+        .post .time {
+            color: #777;
+            font-size: 0.9em;
+        }
+        .post .content {
+            margin-top: 5px;
+        }
+        .post .game {
+            color: #4CAF50;
+        }
+        .post img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Feed de Notícias de Jogos</h1>
+    </div>
+    <div class="container">
+        <div class="feed">
+            <div class="post">
+                <div class="user">Carlos Ferreira</div>
+                <div class="time">1 hora atrás</div>
+                <div class="content">
+                    Acabei de comprar o passe do <span class="game">Call Of Duty</span>! 🎮
+                    <img src="SNOOP-DOGG.webp" alt="Imagem de World of Warcraft">
+                </div>
+            </div>
+            <div class="post">
+                <div class="user">Ana Clara</div>
+                <div class="time">2 horas atrás</div>
+                <div class="content">
+                    Consegui a vitória na minha primeira partida de <span class="game">Fortnite</span>! 🏆
+                    <img src="vitoria-royale.webp" alt="Imagem de Fortnite">
+                </div>
+            </div>
+            <div class="post">
+                <div class="user">Lucas Gomes</div>
+                <div class="time">3 horas atrás</div>
+                <div class="content">
+                    Jogando <span class="game">Minecraft</span> com os amigos. Construímos uma fortaleza incrível!
+                    <img src="Fortaleza.webp" alt="Imagem de Minecraft">
+                </div>
+            </div>
+            <div class="post">
+                <div class="user">Mariana Lima</div>
+                <div class="time">5 horas atrás</div>
+                <div class="content">
+                    Nova atualização de <span class="game">League of Legends</span> está incrível. Mal posso esperar para experimentar as novas skins.
+                    <img src="lol.webp" alt="Imagem de League of Legends">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
